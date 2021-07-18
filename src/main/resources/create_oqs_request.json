@@ -1,0 +1,7 @@
+{
+  "displayName": "oqs_demo_queue_2",
+  "compartmentId": "ocid1.compartment.oc1..aaaaaaaa2z4wup7a4enznwxi3mkk55cperdk3fcotagepjnan5utdb3tvakq",
+  "retentionInSeconds": 86400,
+  "visibilityInSeconds": 1,
+  "deadLetterQueueDeliveryCount": 0
+}
