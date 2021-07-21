@@ -185,4 +185,14 @@ public class Customer {
     public void setState(String state) {
         this.state = state;
     }
+
+    private String tokenOrSessionId;
+
+    public String getTokenOrSessionId() {
+        return tokenOrSessionId;
+    }
+
+    public void setTokenOrSessionId(String tokenOrSessionId) {
+        this.tokenOrSessionId = tokenOrSessionId;
+    }
 }

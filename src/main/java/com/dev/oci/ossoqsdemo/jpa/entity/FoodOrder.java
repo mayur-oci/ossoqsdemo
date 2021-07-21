@@ -27,7 +27,7 @@ public class FoodOrder {
     private Restaurant restaurant;
 
     @Type(type = "json")
-    @Column(columnDefinition = "json")
+    @Column(columnDefinition = "VARCHAR2(1000)")
     private Map<String, Integer> details = new HashMap<>();
 
     private Integer restaurantCharges;
